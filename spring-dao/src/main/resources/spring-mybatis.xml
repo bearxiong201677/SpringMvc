@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--<typeAliases>-->
+        <!--<typeAlias alias="User" type="User"/>-->
+    <!--</typeAliases>-->
+
+
+    <mappers>
+        <mapper resource="sqlMappers/UserMapper.xml"/>
+        <mapper resource="sqlMappers/ItemsMapper.xml"/>
+        <mapper resource="sqlMappers/OrdersMapper.xml"/>
+        <mapper resource="sqlMappers/OrderDetailMapper.xml"/>
+    </mappers>
+</configuration>
